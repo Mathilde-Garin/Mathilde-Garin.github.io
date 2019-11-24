@@ -165,7 +165,8 @@ blockquote {
   background-position: 0 !important;
   background-attachment: fixed;
   height: 100vh;
-  min-height: 375px;
+  width: 100vw;
+  min-height: 100%;
   position: relative;
 
 }
