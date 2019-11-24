@@ -174,15 +174,6 @@ blockquote {
 @media (max-width: 991px) {
   #home {
     background-image: url(../img/background-mobile.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 0 !important;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    min-height: 100%;
   }
 }
 
