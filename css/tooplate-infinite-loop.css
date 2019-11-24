@@ -320,9 +320,8 @@ h3 {
 }
 
 #dispComp img, #dispComp2 img {
-  height: 80px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 70px;
+  width: 70px;
 }
 
 #dispComp p, #dispComp2 p {
@@ -475,6 +474,8 @@ h3 {
 
 #scroll_to_top { 
   position: fixed; 
+  height: 26px;
+  width: 26px;
   bottom: 30px; 
   right: 30px; 
 } 
