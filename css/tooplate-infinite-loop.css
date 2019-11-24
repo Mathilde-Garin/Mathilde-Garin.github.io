@@ -161,12 +161,13 @@ blockquote {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-width: 1024px;
+  min-height: 100%;
   background-repeat: no-repeat;
   background-position: 0 !important;
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  min-height: 100%;
   position: relative;
 }
 
