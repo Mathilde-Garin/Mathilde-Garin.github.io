@@ -166,7 +166,6 @@ blockquote {
   background-attachment: fixed;
   height: 100vh;
   width: auto;
-  min-height: 100%;
   position: relative;
 
 }
@@ -348,7 +347,6 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
 }
 
@@ -405,7 +403,7 @@ h3 {
 }
 
 @media (max-width: 991px) {
-  .grif figure {
+  .grid figure {
     width: 100%;
   }
 }
@@ -493,7 +491,7 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 800px;
+  /* min-height: 800px; */
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
