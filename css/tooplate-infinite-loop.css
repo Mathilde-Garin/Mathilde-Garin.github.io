@@ -166,9 +166,14 @@ blockquote {
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 100%;
   position: relative;
+}
+
+@media (max-width: 900px) {
+  #home {
+    background-image: url(../img/background-mobile.jpg);
+  }
 }
 
 .tm-hero-text-container {
@@ -354,8 +359,6 @@ h3 {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 100vw;
-    min-height: auto;
   }
 }
 
@@ -489,14 +492,11 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 800px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
 }
-
-
 
 #h2Contact {
   padding-bottom: 5%;
