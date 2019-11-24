@@ -171,11 +171,11 @@ blockquote {
 
 }
 
-@media (min-height: 100px) and (max-height: 991px) {
+/*@media (min-height: 100px) and (max-height: 991px) {
   #home {
     background-image: url(../img/background-mobile.jpg);
   }
-}
+}*/
 
 .tm-hero-text-container {
   width: 100%;
