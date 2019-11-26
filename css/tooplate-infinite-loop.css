@@ -165,18 +165,23 @@ blockquote {
   position: relative;
 }
 
+/* 
 @media (max-width: 1024px) {
   #home {
     background-image: url(../img/background-mobile.jpg); 
   }
 }
+*/
 
-/* 
  * iPad with portrait orientation.
  
  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
   #home {
     background-image: url(../img/background-mobile.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 1024px;
   }
 }
@@ -197,10 +202,14 @@ blockquote {
 @media screen and (device-aspect-ratio: 40/71) {
   #home {
     background-image: url(../img/background-mobile.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 500px;
   }
 }
-*/
+
 
 .tm-hero-text-container {
   width: 100%;
