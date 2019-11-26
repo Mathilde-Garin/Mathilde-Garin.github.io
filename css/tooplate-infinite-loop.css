@@ -174,18 +174,12 @@ blockquote {
   position: relative;
 }
 
-@media screen and(max-device-width : 1024px){
+@media screen and(max-width : 1024px){
   #home {
     background-image: url(../img/background-mobile.jpg);
     background-attachment: scroll !important;
   }
 }
-
-/* @media only screen and (min-width: 600px) {
-  #home {
-    background-image: url(../img/background.png); 
-  }
-} */
 
 .tm-hero-text-container {
   width: 100%;
