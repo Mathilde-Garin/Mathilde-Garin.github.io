@@ -699,14 +699,14 @@
       
       $(function(){
         // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0, false);   
-        background_image_parallax_2($("#interet"), 0, false);   
+        background_image_parallax($(".tm-parallax"), 0.30);
+        background_image_parallax_2($("#contact"), 0.60);   
+        background_image_parallax_2($("#interet"), 0.60);   
         
-        // Handle window resize
+       /* // Handle window resize
         window.addEventListener('resize', function(){
           background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
+        }, true); */
 
         // Detect window scroll and update navbar
         $(window).scroll(function(e){          
