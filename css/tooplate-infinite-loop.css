@@ -358,9 +358,10 @@ h3 {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width : 1024px){
   #interet {
-    background-image: url(../img/bg-bangkok-mobile.jpg); 
+    background-image: url(../img/bg-bangkok-mobile.jpg);
+    background-attachment: scroll !important;
   }
 }
 
@@ -512,9 +513,10 @@ h3 {
   padding-top: 100px;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width : 1024px){
   #contact {
     background-image: url(../img/bg-bagan-mobile.jpg);
+    background-attachment: scroll !important;
   }
 }
 
