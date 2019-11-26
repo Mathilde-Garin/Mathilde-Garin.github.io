@@ -95,6 +95,15 @@ blockquote {
 }
 
 .navbar-brand {
+  content: url(../img/logo-mg-blanc.png);
+  height: 7vh;
+}
+
+.navbar-brand.scroll {
+  content: url(../img/logo-mg-noir.png);
+}
+
+.navbar-brand {
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
@@ -340,6 +349,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -375,6 +385,10 @@ h3 {
 
 /* ----------------------- PORTFOLIO ----------------------- */
 
+#portfolio {
+  padding-bottom: 80px;
+}
+
 #gallery {
   padding-bottom: 40px;
   padding-top: 10px;
@@ -396,7 +410,6 @@ h3 {
     width: 100%;
   }
 }
-
 
 .grid figure img {
   position: relative;
@@ -458,6 +471,13 @@ h3 {
   font-size: 68.5%;
 }
 
+#video {
+  padding-top: 3%;
+}
+
+#textvideo {
+  font-size: 0.8em;
+}
 
 /* -------------------------- RETOUR EN HAUT --------------------------- */
 
@@ -476,7 +496,7 @@ h3 {
   color: white;
   background-color: black;
   background-image: url(../img/bg-bagan.jpg);
-  background-position: center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
