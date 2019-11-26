@@ -152,64 +152,24 @@ blockquote {
 /* ----------------------- Hero ----------------------- */
 
 #home {
-  background-image: url(../img/background.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url(../img/background-mobile.jpg);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 !important;
+  background-position: left center !important;
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
   position: relative;
 }
 
-/* 
-@media (max-width: 1024px) {
+@media only screen and (min-width: 600px) {
   #home {
-    background-image: url(../img/background-mobile.jpg); 
+    background-image: url(../img/background.jpg); 
   }
 }
-*/
-
- * iPad with portrait orientation.
- 
- @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  #home {
-    background-image: url(../img/background-mobile.jpg); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 1024px;
-  }
-}
-
- 
- * iPad with landscape orientation.
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  #home {
-    height: 768px;
-  }
-}
-
-
- * iPhone
- * You can also target devices with aspect ratio.
-
-@media screen and (device-aspect-ratio: 40/71) {
-  #home {
-    background-image: url(../img/background-mobile.jpg); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 500px;
-  }
-}
-
 
 .tm-hero-text-container {
   width: 100%;
