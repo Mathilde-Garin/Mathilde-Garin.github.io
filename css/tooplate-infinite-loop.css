@@ -174,7 +174,7 @@ blockquote {
   position: relative;
 }
 
-@media screen and(mmax-device-width : 1024px){
+@media screen and(max-device-width : 1024px){
   #home {
     background-image: url(../img/background-mobile.jpg);
     background-attachment: scroll !important;
