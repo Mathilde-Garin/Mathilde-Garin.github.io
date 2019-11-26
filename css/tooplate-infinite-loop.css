@@ -174,7 +174,7 @@ blockquote {
   position: relative;
 }
 
-@media screen and(max-width : 1024px){
+@media only screen and (max-width : 1024px){
   #home {
     background-image: url(../img/background-mobile.jpg);
     background-attachment: scroll !important;
@@ -354,6 +354,8 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1024px) {
