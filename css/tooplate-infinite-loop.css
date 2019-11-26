@@ -152,7 +152,7 @@ blockquote {
 /* ----------------------- Hero ----------------------- */
 
 #home {
-  background-image: url(../img/background-mobile.jpg);
+  background-image: url(../img/background-mobile.png);
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -167,7 +167,7 @@ blockquote {
 
 @media only screen and (min-width: 600px) {
   #home {
-    background-image: url(../img/background.jpg); 
+    background-image: url(../img/background.png); 
   }
 }
 
