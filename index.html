@@ -641,10 +641,12 @@
     <script>
 
       // Modif iPhone & iPad bg-image
-      if (/(iPhone|iPod|iPad)/.test(navigator.userAgent)) {
-        document.getElementById('home').style.backgroundAttachment == 'scroll';
-      } else {
-        document.getElementById('home').style.backgroundAttachment == 'fixed';
+      function detectIos() {
+        if (/(iPhone|iPod|iPad)/.test(navigator.userAgent)) {
+          document.getElementById('home').style.backgroundAttachment === 'scroll';
+        } else {
+          document.getElementById('home').style.backgroundAttachment === 'fixed';
+        }
       }
 
 
