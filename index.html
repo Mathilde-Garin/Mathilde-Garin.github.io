@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mathilde Garin - Dev Front</title>
+    <meta name="description" content="Mathilde Garin - Développeuse Front-End & Webdesigner à Montpellier. Langages : JS, HTML, CSS, Wordpress... Outils : Illustrator, Photoshop..." />
     <link rel="stylesheet" type="text/css" href="fontawesome-5.5/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
@@ -639,6 +640,14 @@
 
     <script>
 
+      // Modif iPhone & iPad bg-image
+      if (/(iPhone|iPod|iPad)/.test(navigator.userAgent)) {
+        document.getElementById('home').style.backgroundAttachment == 'scroll';
+      } else {
+        document.getElementById('home').style.backgroundAttachment == 'fixed';
+      }
+
+
       function getOffSet(){
         var _offset = 450;
         var windowHeight = window.innerHeight;
@@ -652,7 +661,6 @@
         if(windowHeight > 830) {
           _offset = 210;
         }
-
         return _offset;
       }
 
