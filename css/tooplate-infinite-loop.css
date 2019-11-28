@@ -174,13 +174,6 @@ blockquote {
   position: relative;
 }
 
-@media only screen and (max-width : 800px){
-  #home {
-    background-image: url(../img/background-mobile.jpg);
-    /* background-attachment: scroll !important; */
-  }
-}
-
 .tm-hero-text-container {
   width: 100%;
   height: 100%;
@@ -231,7 +224,7 @@ blockquote {
 
 #social a, #social2 a {
   color: white;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 #social a:hover {
@@ -240,6 +233,10 @@ blockquote {
 
 #social2 a:hover {
   color:#0e89ca;
+}
+
+a#vcard {
+  padding-right: 0;
 }
 
 @media (max-height: 480px) {
@@ -356,13 +353,6 @@ h3 {
   position: relative;
   height: 100%;
   width: 100%;
-}
-
-@media only screen and (max-width : 1024px){
-  #interet {
-    background-image: url(../img/bg-bangkok-mobile.jpg);
-    background-attachment: scroll !important;
-  }
 }
 
 .tm-testimonials-content {
@@ -513,14 +503,6 @@ h3 {
   padding-top: 100px;
 }
 
-@media only screen and (max-width : 1024px){
-  #contact {
-    background-image: url(../img/bg-bagan-mobile.jpg);
-    background-attachment: scroll !important;
-  }
-}
-
-
 #h2Contact {
   padding-bottom: 5%;
 }
@@ -624,6 +606,18 @@ h3 {
   .tm-container-contact {
     max-width: 1063px;
   }
+
+  #videoYT {
+    width: 560px;
+    height: 315px;
+  }
+
+  #videobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 @media (max-width: 991px) {
@@ -683,5 +677,37 @@ h3 {
 
   .tm-gallery-item {
     margin: 0;
+  }
+}
+
+
+@media only screen and (max-width : 800px){
+  #home {
+    background-image: url(../img/background-mobile.jpg);
+    background-attachment: scroll !important;
+  }
+  
+  #interet {
+    background-image: url(../img/bg-bangkok-mobile.jpg);
+    background-attachment: scroll !important;
+  }
+
+  #contact {
+    background-image: url(../img/bg-bagan-mobile.jpg);
+    background-attachment: scroll !important;
+  }
+}
+
+@media only screen and (max-width : 1024px){
+  #home {
+    background-attachment: scroll !important;
+  }
+ 
+  #interet {
+    background-attachment: scroll !important;
+  }
+
+  #contact {
+    background-attachment: scroll !important;
   }
 }
