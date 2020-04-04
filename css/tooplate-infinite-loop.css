@@ -19,12 +19,12 @@ a {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #38B;
+  color: #34b9c9;
 }
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #f2b76a;
+  color: #f8b781;
 }
 
 a:focus {
@@ -71,7 +71,7 @@ blockquote {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #34b9c9;
 }
 
 /* ----------------------- MENU ----------------------- */
@@ -108,7 +108,7 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: #34b9c9;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -232,7 +232,7 @@ blockquote {
 }
 
 #social a:hover {
-  color: #f2b76a;
+  color: #f8b781;
 }
 
 #social2 a:hover {
@@ -275,7 +275,7 @@ a#vcard {
 hr {
   margin-left: 0;
   margin-bottom: 20px;
-  border: solid 1.5px #f2b76a;
+  border: solid 1.5px #f8b781;
 }
 
 
@@ -283,7 +283,7 @@ hr {
   font-size: 2.7rem;
   font-weight: normal;
   font-family: 'neon_80sregular';
-  color: #f2b76a;
+  color: #f8b781;
   margin-bottom: 0;
 }
 
@@ -579,7 +579,7 @@ h3 {
 
 .tm-btn-submit:hover {
 	color: #fff;
-	background-color: #38B;
+	background-color: #34b9c9;
 }
 
 ::placeholder {
