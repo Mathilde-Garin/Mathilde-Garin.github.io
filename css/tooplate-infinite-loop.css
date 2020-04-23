@@ -186,10 +186,6 @@ blockquote {
           justify-content: center;
 }
 
-.tm-hero-text-container-inner {
-  margin-top: -90px;
-}
-
 .tm-hero-title {
   font-size: 4.5rem;
   font-family: 'neon_80sregular';
@@ -198,7 +194,7 @@ blockquote {
 }
 
 .tm-hero-subtitle {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: 'neon_80sregular';
   text-shadow: 2px 2px 2px #333;
   padding-bottom: 60px;
@@ -325,12 +321,23 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  #dispComp, #dispComp2 {
+  #dispComp, #dispComp2, #dispCompList {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+#dispCompList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
 }
 
 #dispComp2 {
@@ -488,6 +495,12 @@ h3 {
 
 #textvideo {
   font-size: 0.8em;
+}
+
+.slick-initialized .slick-slide {
+  color: #707070;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 /* -------------------------- RETOUR EN HAUT --------------------------- */
